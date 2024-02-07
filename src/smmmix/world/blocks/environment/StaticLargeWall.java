@@ -114,9 +114,7 @@ public class StaticLargeWall extends StaticWall{
                 }
             }
         }
-        /*if(overlap && large){
-            Draw.z(Layer.blockProp + 0.0001f * (sdx + 1));
-        }*/
+        //if(overlap && large) Draw.z(Layer.blockProp + 0.0001f * (sdx + 1));
         Draw.rect(r, tile.drawx() + ox * Draw.scl, tile.drawy() + oy * Draw.scl);
         if(tile.overlay().wallOre && drawOres) tile.overlay().drawBase(tile);
     }

@@ -2,7 +2,7 @@
     "name": "smmmix",
     "displayName": "spiltmilk's Mapping Mix",
     "description": "A (soon to be) collection of blocks, units, floors and walls tailor-made for use in maps. Mostly my maps.",
-    "version": "a1.0",
+    "version": "a1.1",
     "minGameVersion": "146",
     "author": "spiltmilk",
     "java": true,
