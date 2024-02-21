@@ -30,6 +30,9 @@ public class SMMMBlocks{
 
         lushGrass = new Floor("lush-grass"){{
             variants = 4;
+
+            attributes.set(Attribute.water, 0.2f);
+            attributes.set(Attribute.oil, 0.05f);
         }};
 
         lushShrubs = new StaticWall("lush-shrubs"){{
@@ -63,20 +66,19 @@ public class SMMMBlocks{
             rotateSpeed = 0;
 
             inaccuracy = 360f;
-            velocityRnd = 0.12f;
-            shootY = -6f;
+            velocityRnd = 0.2f;
+            shootY = 0f;
             shootSound = Sounds.spray;
             shoot.shots = 5;
-            shoot.shotDelay = 9f;
-            shootType = new BaseBulletType(2.5f, 120f, Name + "-pollen-bullet"){{
+            shootType = new BaseBulletType(2.5f, 120, Name + "-pollen-bullet"){{
                 hitSize = 20f;
                 splashDamage = 210f;
                 splashDamageRadius = 44f;
                 scaledSplashDamage = true;
+                lifetime = 720f;
                 drag = 0.005f;
 
                 reflectable = false;
-                lifetime = 720f;
 
                 homingPower = 0.012f;
                 homingRange = 72f;

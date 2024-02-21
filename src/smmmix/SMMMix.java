@@ -9,6 +9,9 @@ public class SMMMix extends Mod{
     }
 
     public void loadContent(){
+
+        SMMMStatusEffects.load();
+        SMMMUnits.load();
         SMMMBlocks.load();
     }
 }

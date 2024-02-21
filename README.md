@@ -6,10 +6,15 @@ Sample maps featuring these blocks will be included (in time).
 </div>
 
 ### Content Overview
+For the editor, there is
 * `1` floor
 * `2` walls
 * `1` prop
-* `1` building (editor only, like everything else listed)
+* `1` building
+* `5` units
+* `3` status effects
+
+While content can be usable in regular gameplay, it is not designed for such a use.
 
 ## Using the Mod
 Like most Mindustry mods featuring the **mindustry-mod** tag, this mod is available on the in-game mod browser.
