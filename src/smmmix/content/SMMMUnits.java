@@ -610,7 +610,7 @@ public class SMMMUnits{
                         intervalRandomSpread = 0f;
                         intervalSpread = 180f;
                         intervalBullet = new BasicBulletType(6f, 84) {{
-                            lifetime = 30f;
+                            lifetime = 45f;
                             pierce = true;
                             pierceCap = 3;
                             pierceBuilding = true;
